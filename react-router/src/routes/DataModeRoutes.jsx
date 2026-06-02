@@ -1,9 +1,9 @@
 import { createBrowserRouter } from "react-router-dom";
 
 
+import RootLayout from "../layout/RootLayout";
 import Dashboard from "../pages/Dashboard";
 import Setting from "../pages/Setting";
-import RootLayout from "../layout/RootLayout";
 
 export const routes = createBrowserRouter([
   {
